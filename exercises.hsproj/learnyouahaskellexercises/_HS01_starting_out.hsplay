@@ -1,0 +1,4 @@
+-- Haskell Playground 1.0
+findK 2 [0,0,1,0,0,0]
+isPalindrome "Noon"
+duplicate [1,2,3]
