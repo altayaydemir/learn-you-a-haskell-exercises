@@ -1,0 +1,25 @@
+cabal-version: 2.4
+name: learnyouahaskellexercises
+version: 1.0
+stability: experimental
+x-ghc-framework-version: 8.6.4-13.14-2
+x-last-ide-version: HfM1.7.0
+
+executable learnyouahaskellexercises
+    main-is: Main.hs
+    other-modules:
+        HS13_for_a_few_monads_more
+        HS04_syntax_in_functions
+        HS08_making_our_own_types_and_typeclasses
+        HS12_a_fistful_of_monads
+        HS03_types_and_typeclasses
+        HS11_functors_applicative_functors_and_monoids
+        HS06_higher_order_functions
+        HS05_recursion
+        HS02_starting_out
+        HS07_modules
+        HS09_input_and_output
+        DistanceConversions
+    default-language: Haskell2010
+    build-depends:
+        base -any
